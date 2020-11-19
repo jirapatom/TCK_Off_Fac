@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TCK_Off_FacModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Master_Category">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.Master_Category">
+        <MappingFragment StoreEntitySet="Master_Category">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Cat_Name" ColumnName="Cat_Name" />
+          <ScalarProperty Name="Cat_Des" ColumnName="Cat_Des" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Master_Item">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.Master_Item">
+        <MappingFragment StoreEntitySet="Master_Item">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Item_No" ColumnName="Item_No" />
+          <ScalarProperty Name="Item_Name" ColumnName="Item_Name" />
+          <ScalarProperty Name="Item_Des" ColumnName="Item_Des" />
+          <ScalarProperty Name="Item_Create" ColumnName="Item_Create" />
+          <ScalarProperty Name="Item_Update" ColumnName="Item_Update" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Item_Img" ColumnName="Item_Img" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Site" ColumnName="Site" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Master_Location">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.Master_Location">
+        <MappingFragment StoreEntitySet="Master_Location">
+          <ScalarProperty Name="Lo_ID" ColumnName="Lo_ID" />
+          <ScalarProperty Name="Lo_Name" ColumnName="Lo_Name" />
+          <ScalarProperty Name="Lo_Des" ColumnName="Lo_Des" />
+          <ScalarProperty Name="Lo_Code" ColumnName="Lo_Code" />
+          <ScalarProperty Name="Lo_Status" ColumnName="Lo_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Master_Member">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.Master_Member">
+        <MappingFragment StoreEntitySet="Master_Member">
+          <ScalarProperty Name="Mem_ID" ColumnName="Mem_ID" />
+          <ScalarProperty Name="Mem_Name" ColumnName="Mem_Name" />
+          <ScalarProperty Name="Mem_User" ColumnName="Mem_User" />
+          <ScalarProperty Name="Mem_Pass" ColumnName="Mem_Pass" />
+          <ScalarProperty Name="Mem_Des" ColumnName="Mem_Des" />
+          <ScalarProperty Name="Mem_Status" ColumnName="Mem_Status" />
+          <ScalarProperty Name="Create_By" ColumnName="Create_By" />
+          <ScalarProperty Name="Create_Date" ColumnName="Create_Date" />
+          <ScalarProperty Name="Update_Date" ColumnName="Update_Date" />
+          <ScalarProperty Name="Code_Mem" ColumnName="Code_Mem" />
+          <ScalarProperty Name="Mem_authorization1" ColumnName="Mem_authorization1" />
+          <ScalarProperty Name="Mem_authorization2" ColumnName="Mem_authorization2" />
+          <ScalarProperty Name="Mem_authorization3" ColumnName="Mem_authorization3" />
+          <ScalarProperty Name="Mem_Function" ColumnName="Mem_Function" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Master_Site">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.Master_Site">
+        <MappingFragment StoreEntitySet="Master_Site">
+          <ScalarProperty Name="Site_ID" ColumnName="Site_ID" />
+          <ScalarProperty Name="Site_Code" ColumnName="Site_Code" />
+          <ScalarProperty Name="Site_Name" ColumnName="Site_Name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Address_2" ColumnName="Address 2" />
+          <ScalarProperty Name="Post_Code" ColumnName="Post_Code" />
+          <ScalarProperty Name="County" ColumnName="County" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Master_Type">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.Master_Type">
+        <MappingFragment StoreEntitySet="Master_Type">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Type_Code" ColumnName="Type_Code" />
+          <ScalarProperty Name="Type_Name" ColumnName="Type_Name" />
+          <ScalarProperty Name="Type_Des" ColumnName="Type_Des" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Create_Date" ColumnName="Create_Date" />
+          <ScalarProperty Name="Update_Date" ColumnName="Update_Date" />
+          <ScalarProperty Name="Create_By" ColumnName="Create_By" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_Request">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.TR_Request">
+        <MappingFragment StoreEntitySet="TR_Request">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Document_No" ColumnName="Document_No" />
+          <ScalarProperty Name="Doc_Prefix" ColumnName="Doc_Prefix" />
+          <ScalarProperty Name="Qty_Request" ColumnName="Qty_Request" />
+          <ScalarProperty Name="Doc_Create" ColumnName="Doc_Create" />
+          <ScalarProperty Name="Doc_Update" ColumnName="Doc_Update" />
+          <ScalarProperty Name="Doc_type" ColumnName="Doc_type" />
+          <ScalarProperty Name="Doc_Status" ColumnName="Doc_Status" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="RQ_Date_Request" ColumnName="RQ_Date_Request" />
+          <ScalarProperty Name="RQ_Doc_Ref" ColumnName="RQ_Doc_Ref" />
+          <ScalarProperty Name="RQ_User" ColumnName="RQ_User" />
+          <ScalarProperty Name="RQ_Customer" ColumnName="RQ_Customer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_Reserve">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.TR_Reserve">
+        <MappingFragment StoreEntitySet="TR_Reserve">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Document_No" ColumnName="Document_No" />
+          <ScalarProperty Name="Doc_Prefix" ColumnName="Doc_Prefix" />
+          <ScalarProperty Name="Qty_Reserve" ColumnName="Qty_Reserve" />
+          <ScalarProperty Name="Doc_Create" ColumnName="Doc_Create" />
+          <ScalarProperty Name="Doc_Update" ColumnName="Doc_Update" />
+          <ScalarProperty Name="Doc_type" ColumnName="Doc_type" />
+          <ScalarProperty Name="Doc_Status" ColumnName="Doc_Status" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="RE_Date_Request" ColumnName="RE_Date_Request" />
+          <ScalarProperty Name="RE_Doc_Ref" ColumnName="RE_Doc_Ref" />
+          <ScalarProperty Name="RE_User" ColumnName="RE_User" />
+          <ScalarProperty Name="RE_Customer" ColumnName="RE_Customer" />
+          <ScalarProperty Name="RE_Location" ColumnName="RE_Location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_Warehouse">
+      <EntityTypeMapping TypeName="TCK_Off_FacModel.TR_Warehouse">
+        <MappingFragment StoreEntitySet="TR_Warehouse">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Prefix" ColumnName="Prefix" />
+          <ScalarProperty Name="Bracode" ColumnName="Bracode" />
+          <ScalarProperty Name="WH_Create" ColumnName="WH_Create" />
+          <ScalarProperty Name="WH_Update" ColumnName="WH_Update" />
+          <ScalarProperty Name="QTY" ColumnName="QTY" />
+          <ScalarProperty Name="Sum_Qty" ColumnName="Sum_Qty" />
+          <ScalarProperty Name="WH_User" ColumnName="WH_User" />
+          <ScalarProperty Name="Use" ColumnName="Use" />
+          <ScalarProperty Name="Plan" ColumnName="Plan" />
+          <ScalarProperty Name="Reserve" ColumnName="Reserve" />
+          <ScalarProperty Name="PD" ColumnName="PD" />
+          <ScalarProperty Name="Starus" ColumnName="Starus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

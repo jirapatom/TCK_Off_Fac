@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TCK | Off Fac</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css?v=1" />
+    <link rel="stylesheet" type="text/css" href="~/Content/style.css?v=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/img/TCK1.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/css/notification/notification.css">
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/css/owl.theme.css">
+    <link rel="stylesheet" href="~/Content/css/owl.transitions.css">
+    <link rel="stylesheet" href="~/Content/css/meanmenu/meanmenu.min.css">
+    <link rel="stylesheet" href="~/Content/css/datapicker/datepicker3.css">
+    <link rel="stylesheet" href="~/Content/css/color-picker/farbtastic.css">
+    <link rel="stylesheet" href="~/Content/css/animate.css">
+    <link rel="stylesheet" href="~/Content/css/normalize.css">
+    <link rel="stylesheet" href="~/Content/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="~/Content/css/jvectormap/jquery-jvectormap-2.0.3.css">
+    <link rel="stylesheet" href="~/Content/css/notika-custom-icon.css">
+    <link rel="stylesheet" href="~/Content/css/main.css">
+    <link rel="stylesheet" href="~/Content/css/responsive.css">
+    <script src="~/Content/js/vendor/modernizr-2.8.3.min.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+</head>
+<body>
+    <div class="header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="logo-area">
+                        <a href="#"><img src="~/Content/img/logo/logo1.png" alt="" style="height:50PX" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="header-top-menu">
+                        <ul class="nav navbar-nav notika-top-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-search"></i></span></a>
+                                <div role="menu" class="dropdown-menu search-dd animated flipInX">
+                                    <div class="search-input">
+                                        <i class="notika-icon notika-left-arrow"></i>
+                                        <input type="text" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-mail"></i></span></a>
+
+                            </li>
+                            <li class="nav-item nc-al">
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-alarm"></i></span></a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-menus"></i></span></a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-chat"></i></span></a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="mobile-menu">
+                        <nav id="dropdown">
+                            <ul class="mobile-menu-nav">
+                                <li>
+                                    <a data-toggle="collapse" data-target="#demoevent" href="#">Warehouse</a>
+                                    <ul id="demoevent" class="collapse dropdown-header-top">
+                                        <li><a href="~/Warehouse/Receive">ลงทะเบียนครุภัณฑ์</a></li>
+                                        <li><a href="~/Warehouse/Return">จัดการ (รับเข้า / คืน)</a></li>
+                                        <li><a href="~/Warehouse/WHReserve">เบิกครุภัณฑ์</a></li>
+                                        <li><a href="~/Warehouse/MoveLocation">ย้ายสถานที่จัดเก็บ</a></li>
+                                        <li><a href="~/Warehouse/Overview">รายการสิ่งของคงคลังทั้งหมด</a></li>
+                                        <li><a href="~/Warehouse/Item">Master Item</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a data-toggle="collapse" data-target="#demolibra" href="#">เบิกครุภัณฑ์</a>
+                                    <ul id="demolibra" class="collapse dropdown-header-top">
+                                        <li>
+                                            <a href="~/Disbursement/CreateOrder">สร้างใบเบิกครุภัณฑ์</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-menu-area mg-t-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
+                        <li id="Menu_Warehouse">
+                            <a data-toggle="tab" href="#Menu_Warehouses"><i class="fa fa-server"></i> Warehouse</a>
+                        </li>
+                        <li id="Menu_Disbursement">
+                            <a data-toggle="tab" href="#Menu_Disbursements"><i class="fa fa-edit"></i>Disbursement Item </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content custom-menu-content">
+                        <div id="Menu_Warehouses" class="tab-pane notika-tab-menu-bg animated flipInX">
+                            <ul class="notika-main-menu-dropdown">
+                                <li>
+                                    <a href="~/Warehouse/Receive">ลงทะเบียนครุภัณฑ์</a>
+                                </li>
+
+                                <li><a href="~/Warehouse/Return">จัดการ (รับเข้าคลัง / คืนสิ่งของ)</a></li>
+                                <li>
+                                    <a href="~/Warehouse/WHReserve">เบิกสิ่งของ</a>
+                                </li>
+                                <li><a href="~/Warehouse/MoveLocation">ย้ายสถานที่จัดเก็บ</a></li>
+                                <li>
+                                    <a href="~/Warehouse/Overview">ครุภัณฑ์ทั้งหมด(ในคลัง)</a>
+                                </li>
+                                <li>
+                                    <a href="~/Warehouse/Item">Master Item</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="Menu_Disbursements" class="tab-pane notika-tab-menu-bg animated flipInX">
+                            <ul class="notika-main-menu-dropdown">
+                                <li>
+                                    <a href="~/Disbursement/CreateOrder">สร้างใบเบิกครุภัณฑ์</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="breadcomb-area">
+        <div class="container">
+            @RenderBody()
+        </div>
+    </div>
+
+    <div class="footer-copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer-copy-right">
+                        <p>Copyright &copy; Designed & Developed by <a href="https://www.pdcable.com/en/home-2/">IT</a> 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/wow.min.js"></script>
+    <script src="~/Content/js/jquery-price-slider.js"></script>
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <script src="~/Content/js/jquery.scrollUp.min.js"></script>
+    <script src="~/Content/js/meanmenu/jquery.meanmenu.js"></script>
+    <script src="~/Content/js/counterup/jquery.counterup.min.js"></script>
+    <script src="~/Content/js/counterup/waypoints.min.js"></script>
+    <script src="~/Content/js/counterup/counterup-active.js"></script>
+    <script src="~/Content/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="~/Content/js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="~/Content/js/sparkline/sparkline-active.js"></script>
+    <script src="~/Content/js/flot/jquery.flot.js"></script>
+    <script src="~/Content/js/flot/jquery.flot.resize.js"></script>
+    <script src="~/Content/js/flot/flot-active.js"></script>
+    <script src="~/Content/js/knob/jquery.knob.js"></script>
+    <script src="~/Content/js/knob/jquery.appear.js"></script>
+    <script src="~/Content/js/knob/knob-active.js"></script>
+    <script src="~/Content/js/icheck/icheck.min.js"></script>
+    <script src="~/Content/js/icheck/icheck-active.js"></script>
+    <script src="~/Content/js/chat/jquery.chat.js"></script>
+    <script src="~/Content/js/todo/jquery.todo.js"></script>
+    <script src="~/Content/js/plugins.js"></script>
+    <script src="~/Content/js/main.js"></script>
+    <script src="~/Content/js/data-table/jquery.dataTables.min.js"></script>
+    <script src="~/Content/js/data-table/data-table-act.js"></script>
+    <script src="~/Content/js/notification/bootstrap-growl.min.js"></script>
+    <script src="~/Content/js/datapicker/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        var baseUrl = "@Url.Content("~")";
+    </script>
+</body>
+</html>

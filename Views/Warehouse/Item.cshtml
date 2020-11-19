@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Overview";
+}
+@Scripts.Render("~/WarehouseI/js")
+
+<script src="~/Content/js/dialog/sweetalert2.min.js"></script>
+<script src="~/Content/js/animation/animation-active.js"></script>
+<link rel="stylesheet" href="~/Content/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="~/Content/css/animate.css" />
+<link rel="stylesheet" href="~/Content/css/animation/animation-custom.css" />
+<link rel="stylesheet" href="~/Content/css/dialog/sweetalert2.min.css">
+<link rel="stylesheet" href="~/Content/css/dialog/dialog.css">
+<body id="Body">
+    <div class="data-table-area">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="data-table-list">
+                    <div class="basic-tb-hd" style="text-align:center">
+                        <h2>รายการแสดงครุภัณฑ์ทั้งหมด</h2>
+                        <p>ข้อมูลแสดงรายการครุภัณฑ์  </p>
+                    </div>
+                    <div class="table-responsive">
+                        <table id="AllItem" class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>หมายเลขครุภัณฑ์</th>
+                                    <th>ชื่อครุภัณฑ์</th>
+                                    <th>รายละเอียดครุภัณฑ์</th>
+                                    <th>ครุภัณฑ์ของโรงงาน</th>
+                                    <th>วันที่บันทึกครุภัณฑ์เข้าระบบ</th>
+                                    <th>บาร์โค้ด</th>
+                                    <th>ประเภทครุภัณฑ์</th>
+                                    <th>ผู้สร้าง</th>
+                                    <th>สถานะ</th>
+                                    <th>Image</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>หมายเลขครุภัณฑ์</th>
+                                    <th>ชื่อครุภัณฑ์</th>
+                                    <th>รายละเอียดครุภัณฑ์</th>
+                                    <th>ครุภัณฑ์ของโรงงาน</th>
+                                    <th>วันที่บันทึกครุภัณฑ์เข้าระบบ</th>
+                                    <th>บาร์โค้ด</th>
+                                    <th>ประเภทครุภัณฑ์</th>
+                                    <th>ผู้สร้าง</th>
+                                    <th>สถานะ</th>
+                                    <th>Image</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
